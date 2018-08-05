@@ -1,0 +1,30 @@
+.settings
+# Mac
+.DS_Store
+
+# Eclipse
+.settings/
+**/.settings/
+.classpath
+.project
+.metadata
+**/WEB-INF/lib
+**/WEB-INF/classes
+
+# Intellij IDEA
+*.iml
+*.ipr
+*.iws
+*.ids
+.idea/
+target/
+build/
+out/
+# ignore web project's classes
+classes/
+lib/
+# log
+*.log
+**/.externalToolBuilders/
+
+node_modules/*
